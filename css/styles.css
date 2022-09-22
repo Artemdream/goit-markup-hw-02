@@ -94,12 +94,12 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  margin: 32px 50px 32px 0;
+  color: var(--secondary-text-color);
+ 
    }
 
 .current {
-  background-color: var(--primary-text-color);
+  color: var(--accent-color);
   }
 
 .menu-link:hover,
@@ -156,6 +156,7 @@ body {
   }
 
 .work-list .work-title {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;   
   }
@@ -163,8 +164,6 @@ body {
 .work-description {
   line-height: 1.7;
   color:var(--primary-text-color);
-  width: 270px;
-  min-height: 48px;
   margin: 0;
   }
 
@@ -194,6 +193,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  color: var(--primary-text-color) ;
   }
 
   /* footer*/
@@ -275,8 +275,7 @@ line-height: 2.0;
 letter-spacing: 0.06em;
 
 }
-.project-description {
-    font-weight: 400;
+.project-description { 
     font-size: 16px;
     line-height: 1.88; 
     color: var(--primary-text-color);
